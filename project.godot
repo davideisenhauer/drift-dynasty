@@ -1,0 +1,22 @@
+[project]
+name="Drift Dynasty"
+icon="res://icon.png"
+
+[rendering]
+use_vulkan=true
+mobile_rendering=true
+
+[physics]
+debug_enabled=false
+
+[autoload]
+GameManager = "res://GameManager.gd"
+DataManager = "res://DataManager.gd"
+AudioManager = "res://AudioManager.gd"
+AnalyticsManager = "res://AnalyticsManager.gd"
+
+[input]
+ui_accelerate="ui_up"
+ui_brake="ui_down"
+ui_steer_left="ui_left"
+ui_steer_right="ui_right"
